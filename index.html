@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="front-page-bg" id="Avaleht">
+      <nav>
+        <ul class="nav-list">
+          <div class="elements">
+            <li><a class="link" href="#Avaleht">Avaleht</a></li>
+            <li><a class="link" href="#about-me">About Me</a></li>
+            <li><a class="link" href="#contact">Contact</a></li>
+          </div>
+        </ul>
+        <div class="burger" onclick="pageContent()">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+      </nav>
+      <div class="content">
+        <div>
+          <h1 class="name" id="my-id"><a href="#about-me">ANDREAS VAHER</a></h1>
+          <p class="speciality">FOTOGRAAF</p>
+          <button><a href="#contact">Võta ühendust</a></button>
+        </div>
+      </div>
+    </div>
+    <section id="about-me" style="height: 100vh">
+      <h1 class="heading">About Me</h1>
+      <div class="profile"></div>
+      <p class="info">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui at
+        officiis est molestias eum, itaque, consectetur doloremque laudantium
+        pariatur quae, alias doloribus aliquid fuga saepe dolorem tempore
+        reprehenderit iure placeat?
+      </p>
+    </section>
+    <section id="contact" style="height: 100vh">
+      <h1 class="heading">Contact</h1>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
